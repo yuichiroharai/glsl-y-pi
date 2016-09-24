@@ -1,0 +1,29 @@
+{
+  "name": "glsl-y-pi",
+  "version": "1.0.0",
+  "description": "define PI, PI*2, PI/2, PI/4 for glslify",
+  "main": "index.glsl",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://yuichiroharai@github.com/yuichiroharai/glsl-y-pi.git"
+  },
+  "keywords": [
+    "glsl",
+    "glslify",
+    "shader",
+    "webgl",
+    "math",
+    "pi"
+  ],
+  "author": {
+    "name": "Yuichiroh Arai",
+    "url": "http://www.yuichiroharai.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuichiroharai/glsl-y-pi/issues"
+  },
+  "homepage": "https://github.com/yuichiroharai/glsl-y-pi#readme",
+  "private": "false"
+}
