@@ -1,6 +1,6 @@
 {
   "name": "glsl-y-pi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "define PI, PI*2, PI/2, PI/4 for glslify",
   "main": "index.glsl",
   "scripts": {},
