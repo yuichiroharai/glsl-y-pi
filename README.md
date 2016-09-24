@@ -4,6 +4,8 @@ define PI, PI*2, PI/2, PI/4 for [glslify](http://github.com/chrisdickinson/glsli
 
 ## Usage ##
 
+[![NPM](https://nodei.co/npm/glsl-y-pi.png?mini=true)](https://nodei.co/npm/glsl-y-pi/)
+
 ```glsl
 #pragma glslify: import(glsl-y-pi);
 
