@@ -1,6 +1,6 @@
 {
   "name": "glsl-y-pi",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A GLSL Module which defines PI, PI*2, PI/2 and PI/4",
   "main": "index.glsl",
   "scripts": {},
