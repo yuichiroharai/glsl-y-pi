@@ -1,6 +1,8 @@
 # glsl-y-pi
 
-define PI, PI*2, PI/2, PI/4 for [glslify](http://github.com/chrisdickinson/glslify).
+A GLSL Module which defines PI, PI*2, PI/2 and PI/4.
+
+Recommend using [glslify](https://github.com/glslify/glslify) and [glslify-import](https://github.com/glslify/glslify-import).
 
 ## Usage ##
 
@@ -8,6 +10,8 @@ define PI, PI*2, PI/2, PI/4 for [glslify](http://github.com/chrisdickinson/glsli
 
 ```glsl
 #pragma glslify: import(glsl-y-pi);
+// In case of a macro redefined
+// #pragma glslify: import(glsl-y-pi/guard);
 
 // PI  : 3.141592653589793
 // PI_2: 6.283185307179586
@@ -18,7 +22,7 @@ const float deg = 45.0;
 
 void main(void) {
     float rad;
-    // same values.
+    // These are same values.
     rad = deg * PI / 180.0;
     rad = deg * PI_2 / 360.0;
     rad = deg * PI_H / 90.0;
